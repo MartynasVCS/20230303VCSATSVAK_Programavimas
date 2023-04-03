@@ -34,15 +34,14 @@ namespace DemoWhile
             Console.WriteLine();
 
             // Įvedimas su duomenų tipo apsauga
-            int ivedimas;
-            while (true)
+            int ivedimas = int.MinValue;
+            while (ivedimas == int.MinValue)
             {
                 Console.Write("Įveskite skaičių: ");
 
                 try
                 {
                     ivedimas = Convert.ToInt32(Console.ReadLine());
-                    break;
                 }
                 catch (FormatException ex)
                 {
