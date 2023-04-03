@@ -31,6 +31,23 @@ namespace DemoSwitch
                     Console.WriteLine("Gyvūnas kažkoks neaiškus");
                     break;
             }
+
+            int transportoPriemone = 4;
+            switch (transportoPriemone)
+            {
+                case 1:
+                    Console.WriteLine("Automobilis");
+                    break;
+                case 2:
+                    Console.WriteLine("Motociklas");
+                    break;
+                case 3:
+                    Console.WriteLine("Vežimas");
+                    break;
+                default:
+                    Console.WriteLine("Nėra tokio pasirinkimo");
+                    break;
+            }
         }
     }
 }
