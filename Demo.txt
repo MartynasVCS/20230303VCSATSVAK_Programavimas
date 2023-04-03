@@ -1,1 +1,1 @@
-﻿Bandomės kurti branchus ir pull requestus
+﻿Bandomės kurti branchus ir kurti pull requestus
