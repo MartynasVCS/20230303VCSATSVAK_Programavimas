@@ -43,10 +43,25 @@ namespace DemoIfSalyga
                 Console.WriteLine("Skaičius yra didesnis už 6");
             }
 
-
+            // Trumpesnis užrašymas (nerekomenduoju)
             if (skaicius > 6)
                 Console.WriteLine("Skaičius yra didesnis už 6");
 
+            // Dar trumpesnis užrašymas (nerekomenduoju)
+            if (skaicius > 6) Console.WriteLine("Skaičius yra didesnis už 6");
+
+            // Ternary operator
+            bool arDidesnisUzSesis = (skaicius > 6) ? true : false;
+
+            // Ternary operator leidžia supaprastinti kodą
+            if (skaicius > 6)
+            {
+                arDidesnisUzSesis = true;
+            }
+            else
+            {
+                arDidesnisUzSesis = false;
+            }
 
             Console.WriteLine("Programos pabaiga");
         }
