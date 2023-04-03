@@ -37,6 +37,17 @@ namespace DemoIfSalyga
                 Console.WriteLine("Sveiki gyvi");
             }
 
+            // Klasikinis if (siūlau taip ir rašyti)
+            if (skaicius > 6)
+            {
+                Console.WriteLine("Skaičius yra didesnis už 6");
+            }
+
+
+            if (skaicius > 6)
+                Console.WriteLine("Skaičius yra didesnis už 6");
+
+
             Console.WriteLine("Programos pabaiga");
         }
     }
