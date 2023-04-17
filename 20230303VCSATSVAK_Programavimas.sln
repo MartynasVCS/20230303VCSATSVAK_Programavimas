@@ -81,6 +81,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 Masyvai", "09 Masyvai", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMasyvai", "DemoMasyvai\DemoMasyvai.csproj", "{31F9C1EA-2814-416C-9538-F0DC7A5E26C0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Sarasai", "10 Sarasai", "{2E05AE56-1B34-4A0B-9BF7-3F4DD88B9F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSarasai", "DemoSarasai\DemoSarasai.csproj", "{CAAFF7AF-11CA-40EA-B2C4-05626EC394F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +207,10 @@ Global
 		{31F9C1EA-2814-416C-9538-F0DC7A5E26C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31F9C1EA-2814-416C-9538-F0DC7A5E26C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31F9C1EA-2814-416C-9538-F0DC7A5E26C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAAFF7AF-11CA-40EA-B2C4-05626EC394F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAAFF7AF-11CA-40EA-B2C4-05626EC394F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAAFF7AF-11CA-40EA-B2C4-05626EC394F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAAFF7AF-11CA-40EA-B2C4-05626EC394F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -237,6 +245,7 @@ Global
 		{C386132D-B55F-4620-974D-86D71E74EB26} = {6611F23B-375C-490C-AC55-4F969027038F}
 		{647457D8-57E9-46E3-8C8B-267617061EC9} = {6611F23B-375C-490C-AC55-4F969027038F}
 		{31F9C1EA-2814-416C-9538-F0DC7A5E26C0} = {0B6411A0-B647-4A5E-AE08-9AE5F3A64C80}
+		{CAAFF7AF-11CA-40EA-B2C4-05626EC394F0} = {2E05AE56-1B34-4A0B-9BF7-3F4DD88B9F8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF7E7727-ACFF-4EEE-8C08-C9C67EB9A3E1}
