@@ -11,13 +11,14 @@ namespace DemoKlases
             Zmogus zmogusPaulius = new Zmogus("Paulius");
             Zmogus zmogusPetras = new Zmogus("Petras", "Petrauskas", 33);
 
-            Console.WriteLine(zmogusPaulius.GautiVarda());
-            Console.WriteLine(zmogusPetras.GautiVarda());
+            Console.WriteLine(zmogusPaulius.vardas);
+            Console.WriteLine(zmogusPetras.vardas);
             Console.WriteLine();
-            Console.WriteLine(zmogusPaulius.GautiVarda());
-            Console.WriteLine(zmogusPetras.GautiVarda());
+            Console.WriteLine(zmogusPaulius.vardas);
+            Console.WriteLine(zmogusPetras.vardas);
 
-            zmogusPaulius.KeistiVarda("Pauliukas");
+            // zmogusPaulius.vardas = "Pauliukas"; // neleistinas veiksmas nes vardas neturi set'erio
+            // zmogusPaulius.pavarde = "Paulauskas"; // neleistinas veiksmas nes pavardes set'eris yra private
             zmogusPaulius.Prisistatymas();
             zmogusPetras.Prisistatymas();
 
@@ -28,10 +29,10 @@ namespace DemoKlases
 
     internal class Zmogus
     {
-        private string vardas;
-        private string pavarde;
-        private int amzius;
-        private List<string> nuotaikos = new List<string>() { "liūdnas", "piktas", "linksmas" };
+        public string vardas { get; }
+        public string pavarde { get; private set; }
+        public int amzius;
+        public List<string> nuotaikos = new List<string>() { "liūdnas", "piktas", "linksmas" };
 
         public Zmogus()
         {
@@ -50,14 +51,10 @@ namespace DemoKlases
             this.amzius = amzius;
         }
 
-        internal string GautiVarda()
+        private void KeistiDuomenis()
         {
-            return vardas;
-        }
-
-        internal void KeistiVarda(string naujasVardas)
-        {
-            vardas = naujasVardas;
+            // vardas = "Kitas vardas"; // neleistinas veiksmas nes vardas neturi set'erio
+            pavarde = "Kita pavarde"; 
         }
 
         public void Prisistatymas()
