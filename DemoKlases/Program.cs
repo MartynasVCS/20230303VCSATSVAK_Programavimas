@@ -11,12 +11,13 @@ namespace DemoKlases
             Zmogus zmogusPaulius = new Zmogus("Paulius");
             Zmogus zmogusPetras = new Zmogus("Petras", "Petrauskas", 33);
 
-            Console.WriteLine(zmogusPaulius.vardas);
-            Console.WriteLine(zmogusPetras.vardas);
+            Console.WriteLine(zmogusPaulius.GautiVarda());
+            Console.WriteLine(zmogusPetras.GautiVarda());
             Console.WriteLine();
-            Console.WriteLine(zmogusPaulius.amzius);
-            Console.WriteLine(zmogusPetras.amzius);
+            Console.WriteLine(zmogusPaulius.GautiVarda());
+            Console.WriteLine(zmogusPetras.GautiVarda());
 
+            zmogusPaulius.KeistiVarda("Pauliukas");
             zmogusPaulius.Prisistatymas();
             zmogusPetras.Prisistatymas();
 
@@ -27,10 +28,10 @@ namespace DemoKlases
 
     internal class Zmogus
     {
-        internal string vardas;
-        internal string pavarde;
-        internal int amzius;
-        internal List<string> nuotaikos = new List<string>() { "liūdnas", "piktas", "linksmas" };
+        private string vardas;
+        private string pavarde;
+        private int amzius;
+        private List<string> nuotaikos = new List<string>() { "liūdnas", "piktas", "linksmas" };
 
         public Zmogus()
         {
@@ -47,6 +48,16 @@ namespace DemoKlases
             this.vardas = vardas;
             this.pavarde = pavarde;
             this.amzius = amzius;
+        }
+
+        internal string GautiVarda()
+        {
+            return vardas;
+        }
+
+        internal void KeistiVarda(string naujasVardas)
+        {
+            vardas = naujasVardas;
         }
 
         public void Prisistatymas()
