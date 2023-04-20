@@ -89,6 +89,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 Metodai", "11 Metodai", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMetodai", "DemoMetodai\DemoMetodai.csproj", "{42261B7E-3FC7-4A81-89E1-6DA4A5C10B3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis34", "Uzduotis34\Uzduotis34.csproj", "{BB65E0B8-6DF1-4CCE-BDDF-CEF315E90E0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{42261B7E-3FC7-4A81-89E1-6DA4A5C10B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42261B7E-3FC7-4A81-89E1-6DA4A5C10B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42261B7E-3FC7-4A81-89E1-6DA4A5C10B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB65E0B8-6DF1-4CCE-BDDF-CEF315E90E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB65E0B8-6DF1-4CCE-BDDF-CEF315E90E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB65E0B8-6DF1-4CCE-BDDF-CEF315E90E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB65E0B8-6DF1-4CCE-BDDF-CEF315E90E0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -255,6 +261,7 @@ Global
 		{31F9C1EA-2814-416C-9538-F0DC7A5E26C0} = {0B6411A0-B647-4A5E-AE08-9AE5F3A64C80}
 		{CAAFF7AF-11CA-40EA-B2C4-05626EC394F0} = {2E05AE56-1B34-4A0B-9BF7-3F4DD88B9F8B}
 		{42261B7E-3FC7-4A81-89E1-6DA4A5C10B3A} = {C867ED62-CB85-4B90-A2B6-19587B4E91FE}
+		{BB65E0B8-6DF1-4CCE-BDDF-CEF315E90E0A} = {C867ED62-CB85-4B90-A2B6-19587B4E91FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF7E7727-ACFF-4EEE-8C08-C9C67EB9A3E1}
