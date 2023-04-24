@@ -24,6 +24,45 @@ namespace DemoKlases
 
             zmogusPaulius.Atsisveikinimas(zmogusPetras);
             zmogusPaulius.AtsisveikinimasPagalNuotaika(zmogusPetras);
+
+            double kvadratas1 = Math.Pow(5, 3);
+            double kvadratas2 = MatematikaStatic.Pow(5, 3);
+            MatematikaNonStatic math = new MatematikaNonStatic();
+            double kvadratas3 = math.Pow(5, 3);
+
+            Console.WriteLine(kvadratas1);
+            Console.WriteLine(kvadratas2);
+            Console.WriteLine(kvadratas3);
+        }
+    }
+
+    internal class MatematikaStatic
+    {
+        internal static double Pow(double number, double power)
+        {
+            double result = number;
+
+            for (int i = 1; i < power; i++)
+            {
+                result *= number;
+            }
+
+            return result;
+        }
+    }
+
+    internal class MatematikaNonStatic
+    {
+        internal double Pow(double number, double power)
+        {
+            double result = number;
+
+            for (int i = 1; i < power; i++)
+            {
+                result *= number;
+            }
+
+            return result;
         }
     }
 
